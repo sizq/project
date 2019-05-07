@@ -13,16 +13,16 @@
     <!-- 注册MVC注解驱动 -->
     <mvc:annotation-driven />
 
+    <mvc:resources mapping="/js/**" location="/WEB-INF/js/"/>
+    <mvc:resources mapping="/css/**" location="/WEB-INF/css/"/>
+    <mvc:resources mapping="/imge/**" location="/WEB-INF/imge/"/>
     <!-- 静态资源可访问的设置方式 -->
     <mvc:default-servlet-handler />
-<!--     <mvc:resources mapping="/js/**" location="/WEB-INF/js"/> -->
-<!--     <mvc:resources mapping="/css/**" location="/WEB-INF/css"/> -->
-<!--     <mvc:resources mapping="/imge/**" location="/WEB-INF/imge"/> -->
 
     <!-- 配置视图解析器，可以显式设置，也可以不设置，不设置会依据SpringMVC的默认设置 -->
     <bean id="viewResolver"
         class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="prefix" value="/" />
+        <property name="prefix" value="/WEB-INF/jsp/" />
         <property name="suffix" value=".jsp" />
     </bean>
     <import resource="classpath:spring-mybatis.xml"/>

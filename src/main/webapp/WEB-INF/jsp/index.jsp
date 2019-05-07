@@ -2,7 +2,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<c:set value=".." var="path" scope="page"/>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 <meta name="description" content="" />
@@ -11,6 +10,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<![endif]-->
 <title>Home</title>
+<link rel="shortcut icon" href="../favicon.ico">
 <!-- BOOTSTRAP CORE STYLE -->
 <link href="../css/bootstrap.css" rel="stylesheet" />
 <!-- FONT AWESOME ICONS STYLE -->
