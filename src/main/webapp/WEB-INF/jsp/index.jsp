@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<c:set value="${pageContext.request.contextPath}" var="path" scope="page"/>
+<c:set value=".." var="path" scope="page"/>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 <meta name="description" content="" />
@@ -12,11 +12,11 @@
 	<![endif]-->
 <title>Home</title>
 <!-- BOOTSTRAP CORE STYLE -->
-<link href="${pageContext.request.contextPath}/css/bootstrap.css" rel="stylesheet" />
+<link href="../css/bootstrap.css" rel="stylesheet" />
 <!-- FONT AWESOME ICONS STYLE -->
-<link href="${pageContext.request.contextPath}/css/font-awesome.css" rel="stylesheet" />
+<link href="../css/font-awesome.css" rel="stylesheet" />
 <!-- CUSTOM STYLE CSS -->
-<link href="${pageContext.request.contextPath}/css/custom.css" rel="stylesheet" />
+<link href="../css/custom.css" rel="stylesheet" />
 
 
 </head>
@@ -133,7 +133,7 @@
 			 </div>
 	<div class="row text-center just-pad">
 		<div class="col-md-6" >
-			<img src="${pageContext.request.contextPath}/imge/p2.jpg" alt="" class="img-thumbnail img-responsive" />
+			<img src="../imge/p2.jpg" alt="" class="img-thumbnail img-responsive" />
 			<h1 class="port-name"># Portfolio Name #</h1>
 			<p >
 			   Lorem ipsum dolor sit amet 
@@ -141,7 +141,7 @@
 			<hr />
 	</div>
 		  <div class="col-md-6" >
-			<img src="${pageContext.request.contextPath}/imge/p3.jpg" alt="" class="img-thumbnail img-responsive" />
+			<img src="../imge/p3.jpg" alt="" class="img-thumbnail img-responsive" />
 			<h1 class="port-name"># Portfolio Name #</h1>
 			<p >
 			   Lorem ipsum dolor sit amet 
@@ -152,14 +152,14 @@
 		
 		 <div class="row text-center">
 		<div class="col-md-6" >
-			<img src="${pageContext.request.contextPath}/imge/p4.jpg" alt="" class="img-thumbnail img-responsive" />
+			<img src="../imge/p4.jpg" alt="" class="img-thumbnail img-responsive" />
 		   <h1 class="port-name"># Portfolio Name #</h1>
 			<p >
 			   Lorem ipsum dolor sit amet 
 			</p>
 	</div>
 		  <div class="col-md-6" >
-			<img src="${pageContext.request.contextPath}/imge/p1.jpg" alt="" class="img-thumbnail img-responsive" />
+			<img src="../imge/p1.jpg" alt="" class="img-thumbnail img-responsive" />
 		   <h1 class="port-name"># Portfolio Name #</h1>
 			<p >
 			   Lorem ipsum dolor sit amet 
@@ -204,21 +204,12 @@
 <!-- END CONTACT SECTION-->
 
 <!-- JQUERY SCRIPTS-->
-<script src="${pageContext.request.contextPath}/js/jquery-1.11.1.js"></script>
+<script src="../js/jquery-1.11.1.js"></script>
  <!-- BOOTSTRAP SCRIPTS-->
-<script src="${pageContext.request.contextPath}/js/bootstrap.js"></script>
+<script src="../js/bootstrap.js"></script>
 <!-- SCROLL SCRIPTS-->
-<script src="${pageContext.request.contextPath}/js/jquery.easing.min.js"></script>
+<script src="../js/jquery.easing.min.js"></script>
  <!-- CUSTOM SCRIPTS-->
-<script src="${pageContext.request.contextPath}/js/custom.js"></script>
-
-<script>
-window.onload=function(){
-	debugger;
-	var a = ${path};
-	alert(a);
-}
-</script>
-
+<script src="../js/custom.js"></script>
 </body>
 </html>
